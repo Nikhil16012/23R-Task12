@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 5px;
+        padding: 0px;
+      }
+      nav {
+        background-color: white;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+      }
+      .ul {
+        width: 100%;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        
+      }
+      nav li {
+        height: 50px;
+        
+
+      }
+      nav a {
+        height: 100%;
+        padding: 0px 30px;
+        text-decoration: none;
+        display: flex;
+        color: black;
+      }
+      nav li:first-child {
+        margin-right: auto;
+        background-color: orange;
+      }
+      .c1,
+      .c3,
+      .c5 {
+        background-color: green;
+      }
+      .c2,
+      .c4 {
+        background-color: chocolate;
+      }
+      .c1:hover {
+        background-color: red;
+      }
+      .c2:hover {
+        background-color: blue;
+      }
+      .c2:active {
+        background-color: burlywood;
+      }
+      .c3:hover {
+        background-color: aqua;
+      }
+      .c3:active {
+        background-color: yellowgreen;
+      }
+      .c4:hover {
+        background-color: brown;
+      }
+      .c5:hover {
+        background-color: darkslategray;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul class="ul">
+        <li><a href="https://www.10000coders.co/">10000coders</a></li>
+        <li class="c1"><a href="https://www.10000coders.co/#home">Home</a></li>
+        <li class="c2"><a href="https://www.10000coders.co/#why">why</a></li>
+        <li class="c3">
+          <a href="https://www.10000coders.co/#curriculum">Curriculum</a>
+        </li>
+        <li class="c4"><a href="https://www.10000coders.co/#team">Team</a></li>
+        <li class="c5">
+          <a href="https://www.10000coders.co/#employers">Employers</a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
